@@ -1,0 +1,91 @@
+* {
+    background: #41304d;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    color: #c6d0f5;
+  }
+  
+  body {
+    min-height: 95vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  
+  h3 {
+    display: inline-block;
+    font-size: inherit;
+    padding: 0 0.5em;
+    margin-bottom: 0;
+    background-color: #684eff;
+    color: #fafafa;
+  }
+  
+  a {
+    color: #2867db;
+    text-decoration: none;
+  }
+  
+  .text-background {
+    color:#B5BFE2;
+  }
+  
+  .text-secondary {
+    color:#3ddf46;
+  }
+  
+  .linkledin:hover {
+    color: #772ce8;
+  }
+  
+  .youtube:hover {
+    color: #ff0000;
+  }
+  
+  .github:hover {
+    color: #a6d189;
+  }
+
+  .medium:hover {
+    color: #0fabc0;
+  }
+  
+  .cursor {
+    color: #ffffff;
+  }
+  
+  .output {
+    width: 100%;
+    max-width: 80ch;
+    animation: fade 5s;
+  }
+  
+  .typeme {
+    width: 30ch;
+    animation: typing 2s steps(25), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 10px solid #ffffff;
+  }
+  
+  @keyframes fade {
+    0% { opacity: 0}
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes typing {
+    0% { width: 0; }
+    100% { width: 30ch; }
+  }
+      
+  @keyframes blink {
+    50% { border-color: transparent;}
+  }
+  
+  @media (min-width:600px) {
+    body {
+      font-size: 1.25rem;
+    }
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Efekan Salman</title>  
+    <link rel="stylesheet" href="./styles.css">  
+    <script src="lang.js" defer></script>
+</head>
+<body>
+    <div class="language-switcher">
+        <button onclick="setLanguage('en')">English</button>
+        <button onclick="setLanguage('tr')">Türkçe</button>
+        <button onclick="setLanguage('fr')">Français</button>
+    </div>
+
+    <div class="typeme"><span class="text-secondary" id="email"></span><span class="text-background">~ </span><span class="cursor">$ </span>cat efekansalman.txt</div>
+    
+    <section class="output">
+        <ul class="links">
+            <li>
+                <a class="github" href="https://github.com/EfekanSalman" alt="github" target="_blank">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a class="youtube" href="https://www.youtube.com/@Bulowski" alt="youtube" target="_blank">
+                    YouTube
+                </a>
+            </li>
+            <li>
+                <a class="linkledin" href="https://www.linkedin.com/in/efekan-salman/" alt="linkledin" target="_blank">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a class="medium" href="https://medium.com/@efekansalman" alt="medium" target="_blank">
+                    Medium
+                </a>
+            </li>    
+        </ul>
+
+        <div><span class="text-secondary">efekansalman@efekansalman </span><span class="text-background">~ </span><span class="cursor">$ </span>cat bio.txt</div>
+        <p id="bio"></p>
+
+        <div><span class="text-secondary">efekansalman@efekansalman </span><span class="text-background">~ </span><span class="cursor">$ </span>cat interests.txt</div>
+        <h3 id="interests-title">Interests</h3>
+        <ul id="interests-list">
+            <li>Core Java & Spring (boot)</li>
+            <li>Backend Development</li>
+            <li>Python</li>
+            <li>Neuroscience</li>
+            <li>Machine learning</li>
+        </ul>
+
+        <div><span class="text-secondary">efekansalman@efekansalman </span><span class="text-background">~ </span><span class="cursor">$ </span>cat languages.txt</div>
+        <h3 id="languages-title">Languages</h3>
+        <ul id="languages-list">
+            <li>🇹🇷 Turkish</li>
+            <li>🇬🇧 English (B2)</li>
+            <li>🇫🇷 French (A2)</li>
+        </ul>
+    </section>
+</body>
+</html>
